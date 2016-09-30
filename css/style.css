@@ -151,6 +151,7 @@ button.navbar-toggle {
 .storyText {
   /*max-width: 960px;*/
   margin: 0 auto;
+  text-align: justify;
 }
 
 .storyText p {
