@@ -58,12 +58,12 @@ h2 {
   color: #5a5a5a;
 }
 
-.navbar-right>li>a {
-  padding-left: -20px;
-}
-
 .navbar li a:hover {
   background-color: #baa76a;
+}
+
+.navbar-right>li>a {
+  padding-left: 10px;
 }
 
 .navLeft {
@@ -102,8 +102,21 @@ button.navbar-toggle {
   height: 28px;
 }
 
-.navbar-right img:hover {
-  fill: #333;
+.navbar-right a {
+  padding-right: 0;
+}
+
+.fa-circle {
+  font-size: 34px;
+  margin-top: -2px;
+  padding-bottom: 0;
+}
+
+.fa-twitter {
+  color: #baa76a;
+  font-size: 20px;
+  margin-top: -6px;
+  padding-bottom: 0;
 }
 
 .fa-bars {
