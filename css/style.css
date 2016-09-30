@@ -102,6 +102,23 @@ button.navbar-toggle {
   height: 28px;
 }
 
+.navbar-right a:hover {
+  padding-bottom: 10px;
+}
+
+svg {
+  height: 28px;
+  padding-bottom: 0;
+  fill: #fff;
+  transition: .5s;
+}
+
+svg:hover {
+  fill: #5a5a5a;
+  transition: .5s;
+}
+
+
 .navbar-right a {
   padding-right: 0;
 }
@@ -362,6 +379,11 @@ footer h5 {
 
 .footR img {
   height: 26px;
+}
+
+.footR svg {
+  height: 26px;
+  margin-bottom: -10px;
 }
 
 .footR ul {
