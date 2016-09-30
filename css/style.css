@@ -3,7 +3,7 @@ p, h6 {
 }
 
 a, h2, h3, h4, h5 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', arial, sans-serif;
 }
 
 h5 {
@@ -21,7 +21,15 @@ a {
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+a:visited {
+  text-decoration: none !important;
+}
+
+a:active {
+  text-decoration: none !important;
 }
 
 .container {
@@ -94,6 +102,10 @@ button.navbar-toggle {
   height: 28px;
 }
 
+.navbar-right img:hover {
+  fill: #333;
+}
+
 .fa-bars {
   color: #fff;
   font-size: 30px;
@@ -149,9 +161,7 @@ button.navbar-toggle {
 }
 
 .storyText {
-  /*max-width: 960px;*/
   margin: 0 auto;
-  text-align: justify;
 }
 
 .storyText p {
@@ -165,6 +175,9 @@ button.navbar-toggle {
 .storyText p:last-of-type {
   margin-bottom: 84px;
   font-weight: 700;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Poppins', arial, sans-serif;
 }
 
 #beers {
@@ -362,15 +375,11 @@ footer h5 {
     max-width: 67%;
   }
   #store a {
-    float: left;
+    float: none;
     margin-top: 20px;
     clear: both;
     margin-left: auto;
     margin-right: auto;
-  }
-  .purchaseSect {
-    float: left;
-    clear: both;
   }
   .footR li:last-of-type {
     display: inline;
@@ -380,6 +389,13 @@ footer h5 {
     max-width: 70%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+  }
+  #store h3 {
+    margin-bottom: 46px;
+  }
+  footer {
+    margin-top: 90px;
   }
 }
 
