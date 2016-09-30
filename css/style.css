@@ -459,6 +459,9 @@ footer h5 {
     margin-top: 20px;
     margin-bottom: 50px;
   }
+  footer h5{
+    font-size: 12px;
+  }
   .pipe {
     display: none;
     visibility: hidden;
